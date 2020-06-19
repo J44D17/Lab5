@@ -35,7 +35,7 @@ void LinkedList::insert(int numero){
 
     //crear 2 punteros de tipo Nodo auxiliares
     Node *aux1=lista;//el aux1 apunte a lista
-    Node *aux2=NULL;
+    Node *aux2;
 
     while((aux1!=NULL)&&(aux1->getdato()<numero)){
         aux2=aux1;

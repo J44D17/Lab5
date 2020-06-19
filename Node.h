@@ -31,8 +31,8 @@ Node::Node(int dato){
 }
 
 Node::Node(Node &nodo){
-    this->dato=nodo.dato;
-    this->siguiente=nodo.siguiente;
+    dato=nodo.dato;
+    siguiente=nodo.siguiente;
 }
 
 Node::~Node(){
